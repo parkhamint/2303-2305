@@ -96,8 +96,6 @@ cBO = 6.25 * (son.count('BO'))
 cOO = 6.25 * (son.count('OO'))
 pro = {"AO": cAO, "AA": cAA, "AB": cAB, "BO": cBO, "BB": cBB, "OO" : cOO}
 print(pro)
-if d[0]=='O' or m[0]=='O' :
-    print("봄베이 혈액형의 경우는 제외하였습니다. 즉 어머니와 아버지 모두 O형임에도 A,B,AB형이 나타날 수도 있습니다.")
     
 import matplotlib.pyplot as plt
 plt.figure(figsize=(3,2), dpi=300)
